@@ -31,5 +31,22 @@ This milestone establishes the foundational security and user management layer f
 3. Run all cells sequentially (`Runtime` -> `Run all`).
 4. Click the public `ngrok.io` URL generated at the bottom of the notebook to access the live application.
 
-## Screenshots
-*(Screenshots of Login, Signup, Forgot Password, OTP email, User Dashboard, and Admin Dashboard will be added here upon final execution.)*
+## Screenshots## Screenshots
+
+**1. Login Page**
+![Login Page](screenshots/01_login_page.png)
+
+**2. Signup Page Validation**
+![Signup Validation](screenshots/02_signup_validation.png)
+
+**3. Forgot Password (Security Question)**
+![Forgot Password](screenshots/03_forgot_password_question.png)
+
+**4. OTP Email Received**
+![OTP Email](screenshots/04_otp_received_email.png)
+
+**5. User Dashboard**
+![User Dashboard](screenshots/05_user_dashboard.png)
+
+**6. Admin Dashboard**
+![Admin Dashboard](screenshots/06_admin_dashboard.png)
