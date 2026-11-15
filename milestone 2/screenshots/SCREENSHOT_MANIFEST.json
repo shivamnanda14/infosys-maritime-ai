@@ -1,0 +1,452 @@
+[
+  {
+    "index": 1,
+    "source": "Screenshot 2026-11-06 at 7.10.44 PM.png",
+    "file": "screenshots/01_landing_hero.webp",
+    "section": "Landing page",
+    "title": "Landing — hero",
+    "description": "The public homepage introduces the platform and provides Login/Create Account navigation.",
+    "redacted": false
+  },
+  {
+    "index": 2,
+    "source": "Screenshot 2026-11-06 at 7.11.15 PM.png",
+    "file": "screenshots/02_landing_quote_illustration.webp",
+    "section": "Landing page",
+    "title": "Landing — quote illustration",
+    "description": "A clearly labelled illustrative quote explains how routing, carrier selection, cost and margin can contribute to a quote. Figures shown are demo values.",
+    "redacted": false
+  },
+  {
+    "index": 3,
+    "source": "Screenshot 2026-11-06 at 7.11.28 PM.png",
+    "file": "screenshots/03_landing_feature_cards.webp",
+    "section": "Landing page",
+    "title": "Landing — feature cards",
+    "description": "Feature cards introduce the SQL Copilot and the six operations modules: routing, quotes, carriers, weather, margin and customs.",
+    "redacted": false
+  },
+  {
+    "index": 4,
+    "source": "Screenshot 2026-11-06 at 7.11.47 PM.png",
+    "file": "screenshots/04_landing_four_step_journey.webp",
+    "section": "Landing page",
+    "title": "Landing — four-step journey",
+    "description": "The visitor workflow is summarized as entering requirements, agent review, pricing and reviewing a quote.",
+    "redacted": false
+  },
+  {
+    "index": 5,
+    "source": "Screenshot 2026-11-06 at 7.12.01 PM.png",
+    "file": "screenshots/05_landing_target_users.webp",
+    "section": "Landing page",
+    "title": "Landing — target users",
+    "description": "Freight forwarders, shippers/exporters and analysts are shown as three audiences for the platform.",
+    "redacted": false
+  },
+  {
+    "index": 6,
+    "source": "Screenshot 2026-11-06 at 7.12.14 PM.png",
+    "file": "screenshots/06_landing_security.webp",
+    "section": "Landing page",
+    "title": "Landing — security",
+    "description": "Highlights bcrypt password hashes, signed JWT sessions and email verification. Passwords are hashed, not reversibly encrypted.",
+    "redacted": false
+  },
+  {
+    "index": 7,
+    "source": "Screenshot 2026-11-06 at 7.12.26 PM.png",
+    "file": "screenshots/07_landing_faq.webp",
+    "section": "Landing page",
+    "title": "Landing — FAQ",
+    "description": "Frequently asked questions clarify basic use, roles, recovery and account creation before visitors sign in.",
+    "redacted": false
+  },
+  {
+    "index": 8,
+    "source": "Screenshot 2026-11-06 at 7.12.40 PM.png",
+    "file": "screenshots/08_sign_in_assigned_role.webp",
+    "section": "Authentication and security",
+    "title": "Sign-in — assigned role",
+    "description": "Sign-in accepts username or email, the administrator-assigned role and password. Choosing a role does not assign or elevate permissions.",
+    "redacted": false
+  },
+  {
+    "index": 9,
+    "source": "Screenshot 2026-11-06 at 7.13.19 PM.png",
+    "file": "screenshots/09_copilot_example_prompts.webp",
+    "section": "SQL Copilot",
+    "title": "Copilot — example prompts",
+    "description": "The administrator-facing Copilot shows suggested freight questions, a text field and a microphone input button.",
+    "redacted": false
+  },
+  {
+    "index": 10,
+    "source": "Screenshot 2026-11-06 at 7.13.55 PM.png",
+    "file": "screenshots/10_route_ai_fleet_map.webp",
+    "section": "Freight agents",
+    "title": "Route AI — fleet map",
+    "description": "A route analysis page displays ports, vessels, congestion and storm indicators on the world map.",
+    "redacted": false
+  },
+  {
+    "index": 11,
+    "source": "Screenshot 2026-11-06 at 7.14.11 PM.png",
+    "file": "screenshots/11_route_ai_route_planner.webp",
+    "section": "Freight agents",
+    "title": "Route AI — route planner",
+    "description": "The planner accepts origin, destination and cargo; Plan Route computes options using the existing routing system.",
+    "redacted": false
+  },
+  {
+    "index": 12,
+    "source": "Screenshot 2026-11-06 at 7.14.24 PM.png",
+    "file": "screenshots/12_spot_quotes_new_quote.webp",
+    "section": "Freight agents",
+    "title": "Spot Quotes — new quote",
+    "description": "An authorized operator selects origin, destination, cargo, weight, HS code and customer for the quote pipeline.",
+    "redacted": false
+  },
+  {
+    "index": 13,
+    "source": "Screenshot 2026-11-06 at 7.15.28 PM.png",
+    "file": "screenshots/13_copilot_sql_answers.webp",
+    "section": "SQL Copilot",
+    "title": "Copilot — SQL answers",
+    "description": "Examples show a zero-row carrier lookup and a weather query with visible SQL/row counts and optional text-to-speech.",
+    "redacted": false
+  },
+  {
+    "index": 14,
+    "source": "Screenshot 2026-11-06 at 7.15.55 PM.png",
+    "file": "screenshots/14_spot_quotes_results.webp",
+    "section": "Freight agents",
+    "title": "Spot Quotes — results",
+    "description": "After quoting, the module displays quote counts and statuses, including approved and on-hold records.",
+    "redacted": false
+  },
+  {
+    "index": 15,
+    "source": "Screenshot 2026-11-06 at 7.16.08 PM.png",
+    "file": "screenshots/15_spot_quotes_history_and_tickets.webp",
+    "section": "Freight agents",
+    "title": "Spot Quotes — history and tickets",
+    "description": "Users can review recent quotes and open tickets describing holds that need attention.",
+    "redacted": false
+  },
+  {
+    "index": 16,
+    "source": "Screenshot 2026-11-06 at 7.16.20 PM.png",
+    "file": "screenshots/16_carriers_ranking.webp",
+    "section": "Freight agents",
+    "title": "Carriers — ranking",
+    "description": "The carrier league table compares scores, on-time performance, cost index, risk and shipment counts.",
+    "redacted": false
+  },
+  {
+    "index": 17,
+    "source": "Screenshot 2026-11-06 at 7.16.37 PM.png",
+    "file": "screenshots/17_weather_risk_overview.webp",
+    "section": "Freight agents",
+    "title": "Weather Risk — overview",
+    "description": "The module summarizes weather provider freshness, monitored ports, storms and vessel/port risk.",
+    "redacted": false
+  },
+  {
+    "index": 18,
+    "source": "Screenshot 2026-11-06 at 7.16.55 PM.png",
+    "file": "screenshots/18_weather_risk_world_map.webp",
+    "section": "Freight agents",
+    "title": "Weather Risk — world map",
+    "description": "Interactive weather and maritime markers are color-coded by wind and storm risk.",
+    "redacted": false
+  },
+  {
+    "index": 19,
+    "source": "Screenshot 2026-11-06 at 7.17.13 PM.png",
+    "file": "screenshots/19_weather_risk_data_sources.webp",
+    "section": "Freight agents",
+    "title": "Weather Risk — data sources",
+    "description": "Port weather is sourced from Open-Meteo; the page distinguishes that feed from simulated vessel positions and modeled congestion.",
+    "redacted": false
+  },
+  {
+    "index": 20,
+    "source": "Screenshot 2026-11-06 at 7.17.24 PM.png",
+    "file": "screenshots/20_weather_risk_storm_test.webp",
+    "section": "Freight agents",
+    "title": "Weather Risk — storm test",
+    "description": "Inject Storm adds a *simulation* for testing reroute behavior; it is not a real weather alert.",
+    "redacted": false
+  },
+  {
+    "index": 21,
+    "source": "Screenshot 2026-11-06 at 7.20.06 PM.png",
+    "file": "screenshots/21_margin_overview.webp",
+    "section": "Freight agents",
+    "title": "Margin — overview",
+    "description": "Pricing totals and thresholds show average margin, low-margin quotes, high-value quotes and revenue represented in quotes.",
+    "redacted": false
+  },
+  {
+    "index": 22,
+    "source": "Screenshot 2026-11-06 at 7.20.18 PM.png",
+    "file": "screenshots/22_margin_cost_build_up.webp",
+    "section": "Freight agents",
+    "title": "Margin — cost build-up",
+    "description": "The chosen quote is broken into base cost, fuel, customs, insurance, margin and total, with an accompanying chart.",
+    "redacted": false
+  },
+  {
+    "index": 23,
+    "source": "Screenshot 2026-11-06 at 7.20.29 PM.png",
+    "file": "screenshots/23_customs_held_shipments.webp",
+    "section": "Freight agents",
+    "title": "Customs — held shipments",
+    "description": "Customs shows active rules and a list of shipments or quotes on hold because documents are missing.",
+    "redacted": false
+  },
+  {
+    "index": 24,
+    "source": "Screenshot 2026-11-06 at 7.20.42 PM.png",
+    "file": "screenshots/24_customs_rules_and_documents.webp",
+    "section": "Freight agents",
+    "title": "Customs — rules and documents",
+    "description": "HS-chapter rules identify required documents; the attachment UI supports submitting relevant documents against a hold.",
+    "redacted": false
+  },
+  {
+    "index": 25,
+    "source": "Screenshot 2026-11-06 at 7.20.57 PM.png",
+    "file": "screenshots/25_profile_admin_summary.webp",
+    "section": "Profiles and role-specific views",
+    "title": "Profile — admin summary",
+    "description": "The administrator profile displays role, joined date and last login, as well as an authenticated username-change form.",
+    "redacted": true
+  },
+  {
+    "index": 26,
+    "source": "Screenshot 2026-11-06 at 7.21.09 PM.png",
+    "file": "screenshots/26_profile_credential_update.webp",
+    "section": "Profiles and role-specific views",
+    "title": "Profile — credential update",
+    "description": "Profile security settings permit password changes after confirmation of the current password.",
+    "redacted": false
+  },
+  {
+    "index": 27,
+    "source": "Screenshot 2026-11-06 at 7.24.07 PM.png",
+    "file": "screenshots/27_admin_account_statistics.webp",
+    "section": "Administration and RBAC",
+    "title": "Admin — account statistics",
+    "description": "The Admin Dashboard summarizes total, active and locked accounts, and provides a create-user form with role assignment.",
+    "redacted": false
+  },
+  {
+    "index": 28,
+    "source": "Screenshot 2026-11-06 at 7.24.20 PM.png",
+    "file": "screenshots/28_admin_account_management.webp",
+    "section": "Administration and RBAC",
+    "title": "Admin — account management",
+    "description": "The user table contains role, state, customer mapping and login metadata with controls for permitted management actions. Email column is redacted.",
+    "redacted": true
+  },
+  {
+    "index": 29,
+    "source": "Screenshot 2026-11-06 at 7.24.35 PM.png",
+    "file": "screenshots/29_admin_audit_log_and_role_matrix.webp",
+    "section": "Administration and RBAC",
+    "title": "Admin — audit log and role matrix",
+    "description": "The audit log records administrative events; the role matrix shows per-module permissions. Email fragments are redacted.",
+    "redacted": true
+  },
+  {
+    "index": 30,
+    "source": "Screenshot 2026-11-06 at 7.25.51 PM.png",
+    "file": "screenshots/30_customer_scoped_copilot.webp",
+    "section": "SQL Copilot",
+    "title": "Customer — scoped Copilot",
+    "description": "Customer prompts focus on that customer’s shipments, recent quotes and cargo location; answers must respect account scope.",
+    "redacted": false
+  },
+  {
+    "index": 31,
+    "source": "Screenshot 2026-11-06 at 7.26.59 PM.png",
+    "file": "screenshots/31_customer_my_quotes.webp",
+    "section": "Profiles and role-specific views",
+    "title": "Customer — My Quotes",
+    "description": "Customers see only linked quote records and corresponding statuses in the My Quotes view.",
+    "redacted": false
+  },
+  {
+    "index": 32,
+    "source": "Screenshot 2026-11-06 at 7.27.11 PM.png",
+    "file": "screenshots/32_customer_profile.webp",
+    "section": "Profiles and role-specific views",
+    "title": "Customer — profile",
+    "description": "A Customer profile shows its assigned customer identifier and account settings. Personal email is redacted.",
+    "redacted": true
+  },
+  {
+    "index": 33,
+    "source": "Screenshot 2026-11-06 at 7.28.09 PM.png",
+    "file": "screenshots/33_freight_broker_carriers.webp",
+    "section": "Profiles and role-specific views",
+    "title": "Freight Broker — carriers",
+    "description": "Freight Broker access includes carrier comparison and risk metrics, without admin controls.",
+    "redacted": false
+  },
+  {
+    "index": 34,
+    "source": "Screenshot 2026-11-06 at 7.28.19 PM.png",
+    "file": "screenshots/34_freight_broker_margins.webp",
+    "section": "Profiles and role-specific views",
+    "title": "Freight Broker — margins",
+    "description": "Freight Broker can review pricing breakdowns and profit-margin information according to its role permissions.",
+    "redacted": false
+  },
+  {
+    "index": 35,
+    "source": "Screenshot 2026-11-06 at 7.28.28 PM.png",
+    "file": "screenshots/35_freight_broker_profile.webp",
+    "section": "Profiles and role-specific views",
+    "title": "Freight Broker — profile",
+    "description": "The profile reflects the assigned Freight Broker role. Personal email is redacted.",
+    "redacted": true
+  },
+  {
+    "index": 36,
+    "source": "Screenshot 2026-11-06 at 7.28.37 PM.png",
+    "file": "screenshots/36_freight_broker_quotations.webp",
+    "section": "Profiles and role-specific views",
+    "title": "Freight Broker — quotations",
+    "description": "The freight quotation entry form is available to the Freight Broker with a role-appropriate sidebar.",
+    "redacted": false
+  },
+  {
+    "index": 37,
+    "source": "Screenshot 2026-11-06 at 7.29.40 PM.png",
+    "file": "screenshots/37_operations_manager_route.webp",
+    "section": "Profiles and role-specific views",
+    "title": "Operations Manager — route",
+    "description": "Operations Manager sees Route AI and can examine the modeled congestion and live-fleet view.",
+    "redacted": false
+  },
+  {
+    "index": 38,
+    "source": "Screenshot 2026-11-06 at 7.30.02 PM.png",
+    "file": "screenshots/38_operations_manager_weather.webp",
+    "section": "Profiles and role-specific views",
+    "title": "Operations Manager — weather",
+    "description": "The operations-focused Weather Risk view includes port and storm information without pricing screens.",
+    "redacted": false
+  },
+  {
+    "index": 39,
+    "source": "Screenshot 2026-11-06 at 7.30.11 PM.png",
+    "file": "screenshots/39_operations_manager_customs.webp",
+    "section": "Profiles and role-specific views",
+    "title": "Operations Manager — customs",
+    "description": "Customs review is available in Operations Manager’s navigation, with customs rule and held-shipment data.",
+    "redacted": false
+  },
+  {
+    "index": 40,
+    "source": "Screenshot 2026-11-06 at 7.30.24 PM.png",
+    "file": "screenshots/40_operations_manager_profile.webp",
+    "section": "Profiles and role-specific views",
+    "title": "Operations Manager — profile",
+    "description": "The profile confirms Operations Manager access and supports username/password maintenance. Personal email is redacted.",
+    "redacted": true
+  },
+  {
+    "index": 41,
+    "source": "Screenshot 2026-11-06 at 7.31.47 PM.png",
+    "file": "screenshots/41_auditor_route_view.webp",
+    "section": "Profiles and role-specific views",
+    "title": "Auditor — route view",
+    "description": "Auditor can inspect route data without a Run Analysis action, illustrating read-only access.",
+    "redacted": false
+  },
+  {
+    "index": 42,
+    "source": "Screenshot 2026-11-06 at 7.32.12 PM.png",
+    "file": "screenshots/42_auditor_customs_view.webp",
+    "section": "Profiles and role-specific views",
+    "title": "Auditor — customs view",
+    "description": "Auditor sees customs status and document requirements for review purposes.",
+    "redacted": false
+  },
+  {
+    "index": 43,
+    "source": "Screenshot 2026-11-06 at 7.32.21 PM.png",
+    "file": "screenshots/43_auditor_documents.webp",
+    "section": "Profiles and role-specific views",
+    "title": "Auditor — documents",
+    "description": "The document tab lists generated PDFs and an upload/extraction interface; authorization still controls whether actions are accepted.",
+    "redacted": false
+  },
+  {
+    "index": 44,
+    "source": "Screenshot 2026-11-06 at 7.32.32 PM.png",
+    "file": "screenshots/44_auditor_profile.webp",
+    "section": "Profiles and role-specific views",
+    "title": "Auditor — profile",
+    "description": "An Auditor account is labelled read-only in the access model; profile credentials can still be maintained. Personal email is redacted.",
+    "redacted": true
+  },
+  {
+    "index": 45,
+    "source": "Screenshot 2026-11-06 at 7.33.00 PM.png",
+    "file": "screenshots/45_registration_customer.webp",
+    "section": "Authentication and security",
+    "title": "Registration — customer",
+    "description": "Public self-registration collects username, email, strong password and security question/answer. New accounts are Customers by default.",
+    "redacted": false
+  },
+  {
+    "index": 46,
+    "source": "Screenshot 2026-11-06 at 7.37.34 PM.png",
+    "file": "screenshots/46_registration_email_verification.webp",
+    "section": "Authentication and security",
+    "title": "Registration — email verification",
+    "description": "A six-digit email code verifies a new account before first sign-in. The example email is redacted.",
+    "redacted": true
+  },
+  {
+    "index": 47,
+    "source": "Screenshot 2026-11-06 at 7.38.36 PM.png",
+    "file": "screenshots/47_recovery_email_otp.webp",
+    "section": "Authentication and security",
+    "title": "Recovery — email OTP",
+    "description": "Forgot-password supports time-limited email OTP recovery and resend throttling; the example email is redacted.",
+    "redacted": true
+  },
+  {
+    "index": 48,
+    "source": "Screenshot 2026-11-06 at 7.39.29 PM.png",
+    "file": "screenshots/48_recovery_security_question.webp",
+    "section": "Authentication and security",
+    "title": "Recovery — security question",
+    "description": "The alternative recovery path displays the saved question and checks the answer without revealing it. The account identifier is redacted.",
+    "redacted": true
+  },
+  {
+    "index": 49,
+    "source": "Screenshot 2026-11-06 at 7.40.12 PM.png",
+    "file": "screenshots/49_recovery_rate_limiting.webp",
+    "section": "Authentication and security",
+    "title": "Recovery — rate limiting",
+    "description": "Rate limiting protects repeated OTP attempts; the submitted email and test code are redacted.",
+    "redacted": true
+  },
+  {
+    "index": 50,
+    "source": "Screenshot 2026-11-06 at 7.41.29 PM.png",
+    "file": "screenshots/50_locked_account_clear_error.webp",
+    "section": "Authentication and security",
+    "title": "Locked account — clear error",
+    "description": "Locked users receive the explicit account-locked message rather than a misleading session-expired error. The login identifier is redacted.",
+    "redacted": true
+  }
+]
