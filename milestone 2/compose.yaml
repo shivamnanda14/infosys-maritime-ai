@@ -1,0 +1,24 @@
+services:
+  freightquote:
+    build: .
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:8000:8000"
+    environment:
+      - APP_KIND=Freight
+      - APP_DATA_DIR=/var/lib/freightquote
+      - JWT_SECRET=${JWT_SECRET:?Set a stable secret of at least 32 characters}
+      - ADMIN_PASSWORD=${ADMIN_PASSWORD:?Set a unique strong administrator password}
+      - ADMIN_EMAIL=${ADMIN_EMAIL:-admin@infosys.com}
+      - EMAIL_ADDRESS=${EMAIL_ADDRESS:-}
+      - EMAIL_PASSWORD=${EMAIL_PASSWORD:-}
+    volumes:
+      - freightquote_data:/var/lib/freightquote
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/api/health', timeout=10)"]
+      interval: 30s
+      timeout: 12s
+      retries: 3
+      start_period: 90s
+volumes:
+  freightquote_data:

@@ -1,0 +1,16 @@
+# Local secrets, generated files and runtime databases
+.env
+.env.*
+!.env.example
+*.db
+*.sqlite
+*.sqlite3
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+freightquote_env/
+.ipynb_checkpoints/
+.pytest_cache/
+*.log
+ngrok.yml
